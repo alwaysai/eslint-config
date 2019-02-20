@@ -1,0 +1,29 @@
+{
+  "name": "@alwaysai/eslint-config",
+  "version": "0.0.0",
+  "description": "ESLint configurations for @alwaysAI projects",
+  "main": ".eslintrc.json",
+  "scripts": {
+    "test": "eslint --ext .ts,.tsx src"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "1.4.0",
+    "@typescript-eslint/parser": "1.4.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-prettier": "4.0.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-prettier": "3.0.1",
+    "prettier": "1.16.4"
+  },
+  "devDependencies": {
+    "eslint": "5.14.1",
+    "typescript": "3.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/alwaysai/eslint-config.git"
+  },
+  "author": "alwaysAI",
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/alwaysai/eslint-config#readme"
+}
