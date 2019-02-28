@@ -1,7 +1,7 @@
 {
   "name": "@alwaysai/eslint-config",
   "version": "0.0.0",
-  "description": "ESLint configurations for @alwaysAI projects",
+  "description": "ESLint configurations for alwaysAI projects",
   "main": ".eslintrc.json",
   "scripts": {
     "test": "eslint --ext .ts,.tsx src"
@@ -19,11 +19,8 @@
     "eslint": "5.14.1",
     "typescript": "3.3.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/alwaysai/eslint-config.git"
-  },
+  "repository": "github:alwaysai/eslint-config",
   "author": "alwaysAI",
-  "license": "UNLICENSED",
-  "homepage": "https://bitbucket.org/alwaysai/eslint-config#readme"
+  "license": "MIT",
+  "homepage": "https://github.com/alwaysai/eslint-config#readme"
 }

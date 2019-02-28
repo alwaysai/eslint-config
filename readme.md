@@ -29,3 +29,9 @@ where `<directory>` is the subdirectory of your project containing the source co
 
 ## Rules
 This package's rules extend those espoused by [by AirBnB](https://github.com/airbnb/javascript), consumed as [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb). Those rules are mostly concerned with syntax. For code formatting, this package uses [`eslint-config-prettier`](https://github.com/prettier/eslint-config-prettier), which disables all rules that are unnecessary or might conflict with [Prettier](https://prettier.io/). Instead of calling `prettier` directly, this package employs [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier), which "runs Prettier as a ESLint rule and reports differences as individual ESLint issues".
+
+## Related
+- [@alwaysai/tsconfig](https://github.com/alwaysai/tsconfig): TypeScript configurations for alwaysAI projects
+
+## License
+MIT © [alwaysAI, Inc.](https://alwaysai.co)
