@@ -2,9 +2,6 @@
 
 ESLint configurations for alwaysAI projects
 
-## Note
-We haven't actually used this for anything yet. We published the package to npm though, which is irreversible, and we might still use it for TypeScript or for JavaScript. So we'll keep this repo around too!\
-
 ## Usage
 Install this package and the `eslint` command-line tool:
 
