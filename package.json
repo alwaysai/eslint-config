@@ -1,6 +1,6 @@
 {
   "name": "@alwaysai/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint configurations for alwaysAI projects",
   "main": ".eslintrc.json",
   "scripts": {
