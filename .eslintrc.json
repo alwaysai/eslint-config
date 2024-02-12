@@ -13,10 +13,10 @@
     "prettier/prettier": [
       "error",
       {
+        "semi": true,
+        "trailingComma": "none",
         "singleQuote": true,
-        "trailingComma": "all",
-        "bracketSpacing": true,
-        "printWidth": 90
+        "printWidth": 80
       }
     ],
     "@typescript-eslint/indent": "off",
