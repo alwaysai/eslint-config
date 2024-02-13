@@ -17,7 +17,8 @@
   },
   "devDependencies": {
     "eslint": "^8.31.0",
-    "typescript": "4.6.4"
+    "typescript": "4.6.4",
+    "@alwaysai/tsconfig": "0.0.1"
   },
   "repository": "github:alwaysai/eslint-config",
   "author": "alwaysAI",

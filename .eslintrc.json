@@ -10,7 +10,9 @@
     "@typescript-eslint",
     "prettier"
   ],
-  "parserOptions": {},
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "rules": {
     "prettier/prettier": [
       "error",
@@ -21,7 +23,7 @@
         "printWidth": 80
       }
     ],
-    "@typescript-eslint/indent": "off",
-    "import/prefer-default-export": "off"
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-floating-promises": "error"
   }
 }
