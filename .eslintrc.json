@@ -1,25 +1,26 @@
 {
   "parser": "@typescript-eslint/parser",
   "extends": [
-    "eslint-config-airbnb-base",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "eslint-config-prettier"
+    "prettier"
   ],
-  "plugins": [
-    "eslint-plugin-prettier"
-  ],
-  "parserOptions": {},
+  "plugins": ["@typescript-eslint", "prettier"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "rules": {
     "prettier/prettier": [
       "error",
       {
+        "semi": true,
+        "trailingComma": "none",
         "singleQuote": true,
-        "trailingComma": "all",
-        "bracketSpacing": true,
-        "printWidth": 90
+        "printWidth": 80
       }
     ],
-    "@typescript-eslint/indent": "off",
-    "import/prefer-default-export": "off"
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-floating-promises": "error"
   }
 }
