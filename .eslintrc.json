@@ -6,7 +6,9 @@
     "eslint-config-prettier"
   ],
   "plugins": [
-    "eslint-plugin-prettier"
+    "eslint-plugin-prettier",
+    "@typescript-eslint",
+    "prettier"
   ],
   "parserOptions": {},
   "rules": {
